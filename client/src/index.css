@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Montserrat';
+}
+input{
+    height:40px;
+    border:1px solid black;
+    padding-left:20px;
+  
+
+}
+input:focus{
+    outline: none;
+    border: 1px solid green;
+
+}
+.outline-btn{
+    border: #4D4260;
+    color: aliceblue;
+    padding: 5px 20px;
+
+    
+
+
+}
+.contain-btn{
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 5px 20px;
+    height:40px;
+    
+
+}
